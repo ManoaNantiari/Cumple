@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lugar</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Playwrite+AU+QLD:wght@100..400&display=swap');
+    </style>
+    <style>
+        body {
+            background: #ffe4ec; /* rosa suave */
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .titulo-lugar {
+            text-align: center;
+            font-size: 2.7em;
+            color: #a8910d;
+            margin-top: 80px;
+            margin-bottom: 45px;
+            font-family: 'Playwrite AU QLD', Arial, sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 8px #bfa10080;
+        }
+        .subtitulo {
+            font-family: 'Bitcount Prop Single', Arial, sans-serif;
+            font-size: 1.2em;
+            color: #d81b60;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .cuadro-direccion {
+            background: #fff;
+            border: 2px solid #f8bbd0;
+            border-radius: 14px;
+            max-width: 420px;
+            margin: 0 auto 30px auto;
+            padding: 28px 20px;
+            min-height: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            text-align: center;
+            font-size: 1.1em;
+            color: #df28df;
+        }
+        .recuadros-abajo {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+        .recuadro {
+            background: #fff0f6;
+            border: 2px solid #f8bbd0;
+            border-radius: 15px;
+            padding: 25px 35px;
+            text-align: center;
+            font-size: 1.2em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            transition: transform 0.2s;
+        }
+        .recuadro:hover {
+            transform: scale(1.05);
+            background: #ffe4ec;
+        }
+        .recuadro a {
+            color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo-lugar">
+        Te espero en Nivar
+    </div>
+
+    <div class="cuadro-direccion">
+        <div class="subtitulo">Dirección</div>
+        <!-- Escribe aquí la dirección o información adicional -->
+        Calle Nogal <br>
+        18214 Nívar, Granada<br>
+        La casa es la última de la calle con berja negra.<br>
+        <br>
+        <span style="color:#d81b60;">Puedes buscar en Google Maps: "7C5F+93R Nívar"</span>
+    </div>
+
+    <div class="cuadro-direccion">
+        <div class="subtitulo">Transporte</div>
+        <!-- Escribe aquí la información de transporte -->
+        Hay sitio para aparcar en la calle  o en la zona.<br>
+        Seremos varios coches para ir, si tienes coche propio mejor, si no por el grupo nos organizamremos para acudir juntos.<br>
+        Hay tambien autobuses desde Granada, esperemos igualemente organizarnos en coches. <br>
+        <br>
+    </div>
+
+    <!-- Imagen decorativa antes del recuadro del menú -->
+    <div style="display: flex; justify-content: center; margin-bottom: 30px; margin-top: 10px;">
+        <img src="https://i.postimg.cc/LqnnVfYf/ubicacion-nivar.png" alt="Ubicación Nivar" style="max-width: 340px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+    </div>
+
+    <div class="recuadros-abajo">
+        <div class="recuadro">
+            <a href="Menu.html" target="_blank">Menú</a>
+        </div>
+    </div>
+</body>
+</html>

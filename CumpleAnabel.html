@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+    </style>
+    <style type="text/css">
+        body {
+            background: #ffe4ec; /* rosa suave */
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .titulo-invitacion {
+            text-align: center;
+            font-size: 3.2em;
+            font-weight: bold;
+            color: #a8910d; /* dorado */
+            margin-top: 90px; /* Más abajo */
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 8px #bfa10080;
+            letter-spacing: 2px;
+            font-family: 'Bitcount Prop Single', Arial, sans-serif;
+        }
+        .centro-gif {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            min-height: 350px;
+        }
+        .gif-cumple {
+            width: 340px;
+            height: 340px;
+            object-fit: contain;
+            border-radius: 30px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+            background: white;
+            padding: 18px;
+        }
+        .recuadros-abajo {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .recuadro {
+            background: #fff0f6;
+            border: 2px solid #f8bbd0;
+            border-radius: 15px;
+            padding: 25px 35px;
+            text-align: center;
+            font-size: 1.2em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            transition: transform 0.2s;
+        }
+        .recuadro:hover {
+            transform: scale(1.05);
+            background: #ffe4ec;
+        }
+        .recuadro a {
+            color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título-->
+    <div class="titulo-invitacion">
+        CARGANDO TU INVITACION
+    </div>
+
+    <!-- GIF decorativo entre el título y el GIF principal -->
+    <div style="display: flex; justify-content: center; margin-bottom: 60px; margin-top: 10px;">
+        <img src="https://i.pinimg.com/originals/c2/98/21/c298215baf15fe619029f234994feef7.gif" alt="Decoración" style="width:250px; height:auto;">
+    </div>
+
+    <!-- Espacio central para el GIF -->
+    <div class="centro-gif" style="margin-top: 80px; margin-bottom: 60px;">
+        <a href="https://tusitio.com/invitacion" target="_blank">
+            <img src="https://i.pinimg.com/originals/f0/03/70/f003700b123d044a4c13529ed4159a7d.gif" alt="GIF de cumpleaños" style="width: 260px; height: 260px; object-fit: contain; border-radius: 30px; box-shadow: 0 6px 24px rgba(0,0,0,0.15); background: white; padding: 18px;">
+        </a>
+    </div>
+
+    <!-- Recuadros inferiores -->
+    <div class="recuadros-abajo">
+        <div class="recuadro">
+            <a href="Invitacion.html" target="_blank">Invitación</a>
+        </div>
+        <div class="recuadro">
+            <a href="Menu.html" target="_blank">Menú</a>
+        </div>
+        <div class="recuadro">
+            <a href="Lugar.html" target="_blank">Lugar</a>
+        </div>
+    </div>
+</body>
+</html>
